@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">GTU MCQ</string>
+    <string name="sem">SEM 6</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="back_arrow">Back Arrow</string>
+    <string name="view_app">Take Quiz</string>
+    <string name="subjects">Subjects</string>
+    <string name="mcom">MCOM</string>
+    <string name="ajava">AJAVA</string>
+    <string name="nma">NMA</string>
+    <string name="mcom_units">MCOM Quiz</string>
+    <string name="ajava_units">AJAVA Units</string>
+    <string name="nma_units">NMA Units</string>
+    <string name="unit1">Unit-1</string>
+    <string name="unit2">Unit-2</string>
+    <string name="unit3">Unit-3</string>
+    <string name="unit4">Unit-4</string>
+    <string name="unit5">Unit-5</string>
+    <string name="q_name">Question</string>
+    <string name="q_subject">Select Subject</string>
+    <string name="q_year">Enter Year</string>
+    <string name="q_marks">Enter Marks</string>
+    <string name="q_unit">Select Unit</string>
+    <string name="insert_value">Insert</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="option_c">Option C</string>
+    <string name="option_d">Option D</string>
+    <string name="option_a">Option A</string>
+    <string name="enter_option_value">Enter Option Value</string>
+    <string name="option_b">Option B</string>
+    <string name="q">Enter Question</string>
+    <string name="prrevious">Reset</string>
+    <string name="next">Next</string>
+    <string name="answer">Answer</string>
+    <string name="textview">Question</string>
+    <string name="o1">o1</string>
+    <string name="submit">Submit</string>
+    <string name="quiz_score">Quiz Score</string>
+    <string name="total">Total</string>
+    <string name="right">Right</string>
+    <string name="wrong">Wrong</string>
+    <string name="home">Home</string>
+    <string name="update_existing_questions">UPDATE QUESTIONS</string>
+    <string name="subject">Subject</string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="back">Back</string>
+    <string name="apply">Apply</string>
+    <string name="delete_existing_questions">Delete Questions</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="subjects_list">
+        <item>MCOM</item>
+        <item>AJAVA</item>
+        <item>NMA</item>
+    </string-array>
+
+    <string-array name="units_list">
+        <item>Unit-1</item>
+        <item>Unit-2</item>
+        <item>Unit-3</item>
+        <item>Unit-4</item>
+        <item>Unit-5</item>
+    </string-array>
+</resources>

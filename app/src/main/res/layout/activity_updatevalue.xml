@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:focusable="true"
+    tools:context=".Updatevalue">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="114dp"
+        android:layout_height="56dp"
+        android:background="@drawable/btn"
+        android:focusable="auto"
+        android:text="@string/back"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="114dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/btn"
+        android:focusable="auto"
+        android:text="@string/apply"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="370dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:text="@string/update_existing_questions"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="266dp"
+        android:layout_height="56dp"
+        android:background="@drawable/inputtext"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="@string/option_a"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="233dp"
+        android:layout_height="56dp"
+        android:background="@drawable/inputtext"
+        android:entries="@array/subjects_list"
+        android:scrollbarSize="25sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="266dp"
+        android:layout_height="56dp"
+        android:background="@drawable/inputtext"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="@string/option_c"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:focusable="auto"
+        android:text="@string/option_a"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <Spinner
+        android:id="@+id/spinner_forq"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/inputtext"
+        android:scrollbarSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:focusable="auto"
+        android:text="@string/option_c"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inputtext"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="@string/q"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_forq" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:focusable="auto"
+        android:text="@string/option_d"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="266dp"
+        android:layout_height="56dp"
+        android:background="@drawable/inputtext"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="@string/option_d"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:focusable="auto"
+        android:text="@string/option_b"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="266dp"
+        android:layout_height="56dp"
+        android:background="@drawable/inputtext"
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="@string/option_b"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/subject"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/spinner2"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

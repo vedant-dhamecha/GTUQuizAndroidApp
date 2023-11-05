@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appbyabhi.miniproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GTUIMPQUESTIONS">
+        <activity android:name="com.appbyabhi.miniproject.Deletevalue"></activity>
+        <activity android:name="com.appbyabhi.miniproject.Updatevalue" />
+        <activity android:name="com.appbyabhi.miniproject.OptionforOperation" />
+        <activity android:name="com.appbyabhi.miniproject.DisplayScore" />
+        <activity android:name="com.appbyabhi.miniproject.AdminLogin" />
+        <activity android:name="com.appbyabhi.miniproject.Insertvalue" />
+        <activity android:name="com.appbyabhi.miniproject.Nma_units" />
+        <activity android:name="com.appbyabhi.miniproject.Ajava_units" />
+        <activity android:name="com.appbyabhi.miniproject.Mcom_units" />
+        <activity android:name="com.appbyabhi.miniproject.Subjects" />
+        <activity android:name="com.appbyabhi.miniproject.Second_activity" />
+        <activity android:name="com.appbyabhi.miniproject.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
