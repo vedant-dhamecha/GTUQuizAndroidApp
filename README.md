@@ -25,7 +25,7 @@ The GTU Practice Quiz App is an Android application created using Java and SQLit
 1. Clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/vedant-dhamecja/GTU-Practice-Quiz-App.git](https://github.com/vedant-dhamecha/GTUQuizAndroidApp.git)
+git clone https://github.com/vedant-dhamecha/GTUQuizAndroidApp/
 ```
 
 2. Open the project in Android Studio.
@@ -61,7 +61,7 @@ git clone [https://github.com/vedant-dhamecja/GTU-Practice-Quiz-App.git](https:/
 The app uses an SQLite database to store subjects, questions, and user information. You can access the database by navigating to the following location:
 
 ```plaintext
-app/src/main/java/com/example/gtupracticequizapp/data/QuizDatabaseHelper.java
+app/src/main/java/com/example/gtupracticequizapp/data/DatabaseHelper.java
 ```
 ## Screenshots
 ![1](https://github.com/vedant-dhamecha/GTUQuizAndroidApp/assets/105575987/639278ae-c5c8-4868-b21b-6c6c97c9a05c)
@@ -71,7 +71,7 @@ app/src/main/java/com/example/gtupracticequizapp/data/QuizDatabaseHelper.java
 
 ## Contributors
 
-- [Your Name](https://github.com/vedant-dhamecha)
+- [Vedant Dhamecha](https://github.com/vedant-dhamecha)
 
 ## License
 
